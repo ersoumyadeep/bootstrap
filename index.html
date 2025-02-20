@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        #root{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        body{
+            font-family: "Crimson Text", serif;
+        }
+        .card{
+            font-family: inherit;
+            width: calc(25% - 30px);
+            border: 1px solid #aaa;
+            
+        }
+
+        .card .img-block{
+            overflow: hidden;
+            height: 300px;
+
+        }
+
+        .card .img-block img{
+            width: 100%;
+            height: 100%;
+            object-position: center;
+            object-fit: cover;
+        }
+        .card h4{
+            text-align: center;
+            font-size: 22px;
+            padding: 10px;
+            margin: 0;
+        }
+        .card p{
+            text-align: center;
+        }
+        .card a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-color: crimson;
+            text-transform: uppercase;
+            color: aliceblue;
+            padding: 8px 12px;
+            margin: 0;
+        }
+        h1{
+            font-weight: 300;
+        }
+    </style>
+   `
+
+    <script src="./js/app.js" type="module" defer></script>
+</head>
+<body>
+    <div id="root"></div>
+    <div id="gallery"></div>
+    <div id="person-info"></div>
+</body>
+</html>
